@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2A363B;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: monospace;
+}
+
+.logo h1 {
+    font-size: 25px;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    text-decoration: none;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    gap: 15px;
+}
+
+.header a {
+    color: #ADD8E6;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+}
+
+body {
+    background-image: url("images/artistic-minimalism-black-and-white-minimalist-wallpaper-f7ffb2049f354fba6f9214d101b13725.jpg");
+}
