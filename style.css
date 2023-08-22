@@ -1,9 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    /* border: 1px solid red; */
+    font-family: 'Comfortaa', cursive;
 }
 
-.header {
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,25 +27,55 @@
     display: flex;
     text-decoration: none;
     margin: 0;
-    padding-left: 15px;
-    padding-right: 15px;
-    gap: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 25px;
 }
 
 .header a {
-    color: #ADD8E6;
+    color: #2A363B;
     text-decoration: none;
+    border: solid 1px black;
+    padding: 5px;
+    border-radius: 3px;
 }
-.container {
-    display: flex;
+
+.header .logo a 
+{
+    border: none;
 }
 
 body {
-    margin: 0;
-    padding: 0;
     background-image: url('images/minimalistMountains.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh; /* Set the height of the background to the viewport height */
 }
+
+.Container-One {
+    display: flex;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.Container-Two {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 400px;
+    gap: 10px;
+}
+ .Container-One img 
+{
+    width: 600px;
+    height: 300px;
+    opacity: .8;
+    border-radius: 4px;
+}
+.Container-Two button {
+    padding: 15px;
+} 
