@@ -83,7 +83,7 @@ body {
     margin: 0;
     padding: 10px;
     margin-top: calc(100vh - 408px);
-    background-color: #d2d2d2;
+    background-color: #fff;
     text-align: center;
 }
 .images-container {
@@ -110,7 +110,7 @@ body {
 .quote-container 
 {
     height: 50vh;
-    background-color: #666b6d;
+    background-color: lightgray;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -124,4 +124,22 @@ body {
 {
     font-size: smaller;
     margin-left: 400px;
+}
+
+.Signup-Container 
+{
+    height: 40vh;
+
+}
+.Footer 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    background-color: lightgray;
+}
+.Footer-Text
+{
+    padding: 20px;
 }
