@@ -129,8 +129,21 @@ body {
 .Signup-Container 
 {
     height: 40vh;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.Signup-Box
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    gap: 100px;
+    padding: 20px;
+}
+
 .Footer 
 {
     display: flex;
@@ -142,4 +155,19 @@ body {
 .Footer-Text
 {
     padding: 20px;
+}
+.Signup-Box .Top-Text
+{
+    font-size: 45px;
+    padding: 15px;
+}
+.Signup-Box .Middle-Text
+{
+    font-size: 25px;
+    padding-left: 10px;
+}
+.Signup-Box .Button
+{
+    margin-right: 30px;
+    padding: 10px 20px;
 }
